@@ -67,9 +67,9 @@ massage = articles
 # twilio msg (articles headlines) send to relevant phone number
 for i in range(3):
     message = client.messages.create(
-        from_='+12513062558',
+        from_='*****',
         body=response_news_api["articles"][i]["title"],
-        to='+94763384586'
+        to='*****'
     )
 
     print(message.sid)
