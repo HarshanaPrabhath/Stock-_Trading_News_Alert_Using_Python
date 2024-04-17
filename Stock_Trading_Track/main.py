@@ -9,8 +9,8 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 # twilio sms alert api setup
 
-account_sid = 'AC7ea75f8aa0a1391623fe473265e30aa2'
-auth_token = '2e7182f69a450cc2d38842d7345e73d9'
+account_sid = "****"
+auth_token = "***"
 client = Client(account_sid, auth_token)
 
 # stock_api_call
